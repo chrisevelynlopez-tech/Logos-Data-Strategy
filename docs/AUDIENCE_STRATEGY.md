@@ -1,9 +1,13 @@
-# Estrategia de Audiencia Meta - LDS
+# Estrategia de Audiencia y Despliegue Omnicanal - LDS
 
-### 1. Perfil del Consumidor
-* **Target:** Personas interesadas en la historia, arqueología y lingüística que buscan la raíz de los textos bíblicos sin filtros religiosos o institucionales.
-* **Necesidad:** Reducir la incertidumbre y eliminar sesgos históricos mediante evidencia física y atómica.
+### 1. Filosofía de Entrega: "Ir al Necesitado"
+* **Propósito:** La empresa no espera a que el usuario llegue; identifica la necesidad (curiosidad histórica, crisis de fe, rigor académico) y despliega el hallazgo en la plataforma donde esa audiencia consume información.
 
-### 2. Reglas de Simplificación (Tema 6.3)
-* **La Regla de los 3 Segundos:** Si la conexión entre el pictograma y el objeto arqueológico no se entiende en 3 segundos, el diseño visual es deficiente.
-* **Balance de Contenido (6.5):** Uso de imágenes de inscripciones reales (50%), texto aclaratorio breve (20%) y métricas de datación (30%).
+### 2. Segmentación por Plataforma (Mapeo de Datos)
+* **TikTok (Micro-Aprendizaje):** Enfoque en el impacto visual del pictograma. Regla de los 3 segundos.
+* **YouTube/X (Investigación Profunda):** Enfoque en los metadatos de datación (C14, OSL) y fuentes bibliográficas para la audiencia académica.
+* **Formatos Estáticos (Infografías):** Para comunidades con baja conectividad o preferencia por lectura rápida.
+
+### 3. Reglas de Simplificación Dinámica (Tema 6.3)
+* **Hallazgo Atómico:** El núcleo del mensaje (ej. Bet = Casa) es inmutable.
+* **Adaptación de Capa:** La "forma" del mensaje cambia según el canal, pero el "dato" (el metadato de trazabilidad) es el mismo en todos.

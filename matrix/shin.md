@@ -1,18 +1,16 @@
 # FICHA TÉCNICA ATÓMICA: ש (Shin)
 # ID_LOGOS: 021
-# DATACIÓN: 1800 a.C. (Inscripciones de Serabit el-Khadim - "Montaña del Servidor")
+# DATACIÓN: 1800 a.C.
 
 ## 1. DIMENSIÓN FÍSICA Y ANATÓMICA
-* **Pictografía (Dibujo):** Dos dientes frontales (incisivos).
-* **Lógica de la Era:** Los dientes son la herramienta biológica más dura del cuerpo utilizada para triturar y descomponer el alimento.
-* **Función Natural:** **Presión / Transformación Mecánica**. Capacidad física de desmenuzar, consumir o cambiar el estado de un objeto mediante la fuerza de contacto.
+* **Pictografía:** Dos dientes frontales.
+* **Lógica de la Era:** Representa la capacidad de morder, triturar o consumir. Es la herramienta biológica para cambiar el estado de la materia.
+* **Función Natural:** **Presión / Transformación**. La acción física de apretar o desgarrar para dividir o cambiar la forma de algo.
 
-## 2. FUNCIÓN GRAMATICAL (Sintaxis)
-* **Rol:** Elemento atómico de raíz (Componente central de significado).
-* **Mecánica:** Identifica el componente de cambio de estado o el proceso de consumo/desgaste dentro de una palabra raíz.
-* **Regla de Lectura:** Acrofonía (se toma el sonido inicial del nombre del objeto: **Sh**-in).
+## 2. COMPORTAMIENTO DEL DATO
+* **Identificador:** Sonido inicial del objeto (Sh-in).
+* **Uso técnico:** Identifica el componente que ejerce presión mecánica o que transforma el estado de los datos dentro de una secuencia.
 
-## 3. FIABILIDAD Y DATACIÓN
-* **Fuente:** Proto-Sinaítico (Escritura grabada en piedra por trabajadores semitas).
-* **Método de Datación:** Contexto arqueológico del Bronce Medio en la Península del Sinaí.
-* **Tangibilidad:** Basado en la observación anatómica de la dentadura y su función mecánica de morder y triturar.
+## 3. FIABILIDAD ARQUEOLÓGICA
+* **Fuente:** Inscripciones de Serabit el-Khadim.
+* **Contexto:** Bronce Medio. Basado en la observación de la mecánica dental y su función en la fragmentación de alimentos o materiales.

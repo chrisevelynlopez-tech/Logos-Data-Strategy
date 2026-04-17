@@ -19,13 +19,32 @@ Actualmente, el sistema cuenta con **11 átomos funcionales** mapeados, incluyen
 * **He (ה):** Revelación / Aliento.
 * **Tsadi (ץ):** Objetivo / Captura final.
 
-### Recreación del Sistema
-Para auditar o replicar el grafo de Génesis 1:1, se utiliza el siguiente comando maestro en Neo4j:
-```cypher
-MATCH (n) 
-OPTIONAL MATCH (n)-[r]->(m) 
-RETURN n, r, m
-```
+## 🖥️ Operaciones de la Matrix (Guía Técnica)
+
+Para recrear o modificar el sistema, utiliza estos comandos en la consola de Neo4j:
+
+### 1. Crear un Átomo (Propiedades Pictográficas)
+MERGE (n:Atomo {letra: 'א'})
+ON CREATE SET 
+  n.nombre = 'Aleph',
+  n.funcion = 'Fuerza / Potencia',
+  n.id_logos = '001'
+RETURN n
+
+### 2. Agregar relaciónes
+MATCH (a:Atomo {letra: 'א'}), (l:Atomo {letra: 'ל'})
+MERGE (a)-[:PASO {n: 1, palabra: 'Elohim'}]->(l)
+RETURN a, l
+
+### 2. Para ver todo el versículo conectado:
+MATCH (n) OPTIONAL MATCH (n)-[r]->(m) RETURN n, r, m
+
+### 3. Mantenimineto y corrección
+// Borrar SOLO las flechas si el cableado es incorrecto:
+MATCH ()-[r]->() DELETE r
+
+// Borrar un Átomo y sus conexiones:
+MATCH (n:Atomo {letra: 'א'}) DETACH DELETE n
 
 ## Social Impact (Impacto Social)
 Utilizaremos esta Verdad para intervenir en zonas de **muerte social** (lugares con alto índice de crimen y suicidio). 

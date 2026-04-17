@@ -1,17 +1,17 @@
-# Registro de Función Atómica: הָאָרֶץ (Ha-Aretz)
+# Análisis Atómico: Génesis 1:1
+## Palabra: הָאָרֶץ (Ha-aretz)
 
-### 1. Función Gramatical (Sintaxis)
-* **Rol:** Segundo Objeto Directo (Receptor Final).
-* **Mecánica en la Oración:** Es el **Terminal del Sistema**. Mientras que el Cielo (*Ha-Shamayim*) es el origen de la influencia, la Tierra es donde esa influencia se detiene y se materializa. 
-* **Propósito:** Cerrar el circuito de la oración. Sin esta palabra, el plan queda "en el aire"; la Tierra es la que le da "tierra" (masa) a la voluntad de Elohim.
+### 1. Desglose de Pictogramas (Definición Atómica)
+* **ה (He):** Hombre con brazos levantados. Función: Señalar un hecho presente o hacer visible un dato.
+* **א (Aleph):** Cabeza de buey. Función: Representar la fuerza de empuje necesaria para mover una carga pesada.
+* **ר (Resh):** Cabeza de perfil. Función: Señalar el inicio, lo primero o lo que está arriba de todo.
+* **צ (Tzadi - final):** Anzuelo o trampa. Función: Capturar, fijar o establecer un objeto en una posición determinada.
 
-### 2. Mecánica de los Componentes (Átomos)
-* **ה (Ha - Hey):** Función de Especificación. Señala que esta es "la" materia elegida para el proceso.
-* **א (Aleph):** Función de Fuerza Primaria. La semilla o la potencia que está contenida dentro de la materia.
-* **ר (Resh):** Función de Gobierno/Cabeza. El orden que rige la estructura física.
-* **ץ (Tzadi final):** Función de Anclaje/Cosecha. Representa un anzuelo o una raíz. Su mecánica es **Fijar**. Es lo que hace que la materia no se desvanezca, sino que se plante y sea sólida.
+### 2. Metadato de Validación
+* **Fuente:** Proto-Sinaítico (1800 a.C.).
+* **Evidencia:** Inscripciones en Serabit el-Khadim y estelas de la Edad del Bronce.
+* **Contexto de Apoyo:** En el entorno antiguo, esta secuencia describe la materia que se puede ver y señalar (He) como el resultado de una fuerza inicial (Aleph-Resh) que termina por asentarse o quedar fija (Tzadi). Es el registro físico del suelo firme que sostiene la vida y el trabajo.
 
-### 3. Propósito Natural y Relacional
-* **Receptor de Influencia:** Su función respecto al Cielo es ser el agente pasivo. El cielo fecunda (lluvia/luz), la Tierra procesa y produce.
-* **Fijación de la Materia:** Atómicamente, la Tierra sirve para **condensar**. Es el estado donde el flujo (Mem) del cielo se vuelve estructura firme (Tzadi).
-* **Conexión Elemental:** Es el reino de lo sólido y lo denso. Su función es ser el contenedor donde el "Yo Soy" (Et) finalmente descansa y se manifiesta en formas físicas.
+### 3. Entendimiento en Contexto (Traducción Fiel)
+* **Mecánica de la palabra:** Ha-aretz describe el proceso de visibilidad y fijación: Se señala (He) la fuerza (Aleph) que viene desde lo primero (Resh) hasta quedar capturada o establecida (Tzadi) en un lugar sólido.
+* **Significado directo:** Es lo que se hace visible como una fuerza establecida y fija.

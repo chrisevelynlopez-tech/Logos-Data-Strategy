@@ -2,16 +2,15 @@
 ## Palabra: בָּרָא (Bará)
 
 ### 1. Desglose de Pictogramas (Definición Atómica)
-* **ב (Bet):** Tienda/Casa. [cite_start]El contenedor o lugar donde ocurre la vida y el orden.
-* **ר (Resh):** Cabeza de hombre. [cite_start]El líder, el jefe o la persona suprema de la organización[cite: 475].
-* **א (Aleph):** Cabeza de buey. [cite_start]La fuerza, el poder absoluto, el motor que impulsa el sistema[cite: 435].
+* **ב (Bet):** Plano de una tienda. Función: Delimitar un espacio para proteger lo que hay dentro.
+* **ר (Resh):** Cabeza de perfil. Función: Señalar el inicio, lo primero o lo que está arriba de todo.
+* **א (Aleph):** Cabeza de buey. Función: Representar la fuerza de empuje necesaria para mover una carga pesada.
 
-### 2. Metadato de Validación (Unidad 5)
-* [cite_start]**Fuente Arqueológica:** Inscripciones de Serabit el-Khadim (Abjad Lineal)[cite: 22, 138].
-* [cite_start]**Contexto Histórico:** Era del Bronce Temprano (3300-2000 a.C.)[cite: 147].
-* **Interpretación Técnica:** "El Líder Fuerte (Resh + Aleph) establece el orden dentro de la Casa (Bet)". [cite_start]No es creación de la nada, es **Arquitectura de la Decisión** aplicada al caos[cite: 152, 255].
+### 2. Metadato de Validación
+* **Fuente:** Proto-Sinaítico (1800 a.C.).
+* **Evidencia:** Inscripciones grabadas en piedra por poblaciones semíticas en el Sinaí.
+* **Contexto de Apoyo:** En la vida diaria del 1800 a.C., la acción de "hacer aparecer" algo nuevo (como un refugio o un surco para sembrar) requería primero marcar el sitio (Bet), tomar la iniciativa del trabajo (Resh) y aplicar la fuerza física bruta del animal (Aleph). Es el registro de un esfuerzo físico.
 
-### 3. Transformación Narrativa (Unidad 6)
-* [cite_start]**Argumento Inicial (Gancho):** "¿Sabías que 'Crear' en la Biblia originalmente significaba 'Poner orden en casa'?"[cite: 116].
-* [cite_start]**Desarrollo:** En el año 2500 a.C., crear una ciudad o un hogar era un acto de fuerza para delimitar un espacio habitable[cite: 117].
-* [cite_start]**Desenlace (Valor):** La creación es el diseño de una infraestructura funcional para la vida[cite: 118].
+### 3. Entendimiento en Contexto (Traducción Fiel)
+* **Mecánica de la palabra:** Bará describe una secuencia de acción: Se prepara el lugar (Bet), se establece el punto de partida (Resh) y se aplica la fuerza necesaria (Aleph) para que el trabajo comience. 
+* **Significado directo:** Es el acto de iniciar una obra mediante la aplicación de fuerza en un lugar determinado para que algo nuevo sea establecido.

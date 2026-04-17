@@ -9,6 +9,24 @@ Restaurar la identidad de la Palabra desde su fuente **atómica** (la raíz más
 * **Análisis Atómico:** Descripción de cada línea de la pictografía (dibujos de las letras) y su función gramatical.
 * **Verdad Absoluta:** Solo las palabras de Dios y Jesús se toman como parámetros de verdad.
 
+* ## 🖥️ Infraestructura Técnica (LDS-Matrix)
+Para ejecutar el análisis atómico sin sesgos, utilizamos una base de datos de grafos (**Neo4j**). Esto permite que cada átomo sea un nodo independiente y las palabras sean "vectores de fuerza".
+
+### Átomos y Funciones (Génesis 1:1)
+Actualmente, el sistema cuenta con **11 átomos funcionales** mapeados, incluyendo:
+* **Aleph (א):** Potencia / Fuerza motriz.
+* **Lamed (ל):** Dirección / Control de trayectoria.
+* **He (ה):** Revelación / Aliento.
+* **Tsadi (ץ):** Objetivo / Captura final.
+
+### Recreación del Sistema
+Para auditar o replicar el grafo de Génesis 1:1, se utiliza el siguiente comando maestro en Neo4j:
+```cypher
+MATCH (n) 
+OPTIONAL MATCH (n)-[r]->(m) 
+RETURN n, r, m
+```
+
 ## Social Impact (Impacto Social)
 Utilizaremos esta Verdad para intervenir en zonas de **muerte social** (lugares con alto índice de crimen y suicidio). 
 * **Hipótesis:** Al reestructurar el **input cognitivo** (la información que procesa el cerebro) con el lenguaje edificador de la Biblia original, reduciremos la entropía (caos) y devolveremos la paz a la población.

@@ -46,6 +46,16 @@ MATCH ()-[r]->() DELETE r
 // Borrar un Átomo y sus conexiones:
 MATCH (n:Atomo {letra: 'א'}) DETACH DELETE n
 
+### Configuración de la Base de Datos (SQL)
+1. Crear la base de datos: `CREATE DATABASE logos_data_strategy;`
+2. Crear la tabla maestra de átomos: (CREATE TABLE inventario_atomos (
+    id_atomico INT PRIMARY KEY,
+    letra_hebrea VARCHAR(5) NOT NULL,
+    nombre_oficial VARCHAR(50),
+    funcion_fisica TEXT,
+    contexto_arqueologico TEXT,
+    fecha_registro DATE DEFAULT CURRENT_DATE).
+
 ## Social Impact (Impacto Social)
 Utilizaremos esta Verdad para intervenir en zonas de **muerte social** (lugares con alto índice de crimen y suicidio). 
 * **Hipótesis:** Al reestructurar el **input cognitivo** (la información que procesa el cerebro) con el lenguaje edificador de la Biblia original, reduciremos la entropía (caos) y devolveremos la paz a la población.

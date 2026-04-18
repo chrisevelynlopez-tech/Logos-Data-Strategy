@@ -46,15 +46,50 @@ MATCH ()-[r]->() DELETE r
 // Borrar un Átomo y sus conexiones:
 MATCH (n:Atomo {letra: 'א'}) DETACH DELETE n
 
-### Configuración de la Base de Datos (SQL)
-1. Crear la base de datos: `CREATE DATABASE logos_data_strategy;`
-2. Crear la tabla maestra de átomos: (CREATE TABLE inventario_atomos (
+## 💾 Infraestructura de Datos Relacional (SQL Server)
+
+Para la persistencia de datos masivos y el inventario maestro de definiciones, utilizamos **SQL Server 2022**. Esta base de datos actúa como la "Fuente de Verdad" que alimenta a la Matrix en Neo4j.
+
+### 1. Configuración del Entorno
+* **Base de Datos:** `CREATE DATABASE logos_data_strategy;`
+* **Codificación:** Se utiliza `NVARCHAR` y el prefijo `N` para garantizar la integridad de los caracteres hebreos (Unicode).
+
+### 2. Estructura de la Tabla Maestra
+```sql
+CREATE TABLE inventario_atomos (
     id_atomico INT PRIMARY KEY,
-    letra_hebrea VARCHAR(5) NOT NULL,
+    letra_hebrea NVARCHAR(10) NOT NULL,
     nombre_oficial VARCHAR(50),
     funcion_fisica TEXT,
     contexto_arqueologico TEXT,
-    fecha_registro DATE DEFAULT CURRENT_DATE).
+    fecha_registro DATETIME DEFAULT GETDATE()
+);
+```
+### 3. Inyección de átomos
+INSERT INTO inventario_atomos (id_atomico, letra_hebrea, nombre_oficial, funcion_fisica, contexto_arqueologico)
+VALUES 
+(1, N'ב', 'Bet', 'Contenedor / Espacio', 'Representación de una carpa; define el límite entre dentro y fuera.'),
+(2, N'ר', 'Resh', 'Inicio / Cabeza', 'Perfil de cabeza humana; indica prioridad u origen.'),
+(3, N'א', 'Aleph', 'Fuerza / Potencia', 'Cabeza de buey; representa la energía motriz o el líder.'),
+(4, N'ש', 'Shin', 'Transformación / Presión', 'Dientes; capacidad de consumir o cambiar el estado de algo.'),
+(5, N'י', 'Yod', 'Trabajo Manual / Mano', 'Brazo y mano; intervención directa y creación.'),
+(6, N'ת', 'Tav', 'Sello / Destino / Marca', 'Dos palos cruzados; el punto final o la marca.'),
+(7, N'ל', 'Lamed', 'Dirección / Control', 'Aguijón de pastor; control de la trayectoria de la fuerza.'),
+(8, N'ה', 'He', 'Revelación / Aliento', 'Hombre con brazos alzados; apertura o asombro.'),
+(9, N'ם', 'Mem', 'Flujo / Caos / Agua', 'Ondas de agua; movimiento fluido masivo.'),
+(10, N'ו', 'Vav', 'Conector / Estaca', 'Clavo o estaca; función de unir dos elementos.'),
+(11, N'ץ', 'Tsadi', 'Objetivo / Anzuelo', 'Anzuelo o persona de rodillas; la meta u objetivo.');
+
+### 4. Consultas de validación
+SELECT * FROM inventario_atomos ORDER BY id_atomico ASC;
+
+### 🛠️ Entorno de Gestión: DBeaver
+Para la administración unificada de bases de datos (SQL Server + Neo4j), se utiliza **DBeaver Community Edition**.
+
+* **Conexión:** Configurada mediante el protocolo **TCP/IP** en el puerto `1433`.
+* **Autenticación:** Integración con **Windows Authentication** y habilitación de `trustServerCertificate` para compatibilidad con SQL Server 2022.
+* **Codificación de Interfaz:** Configurado en **UTF-8** para la correcta visualización del alfabeto hebreo pictográfico.
+
 
 ## Social Impact (Impacto Social)
 Utilizaremos esta Verdad para intervenir en zonas de **muerte social** (lugares con alto índice de crimen y suicidio). 
